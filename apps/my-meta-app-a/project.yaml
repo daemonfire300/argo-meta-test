@@ -1,0 +1,10 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: meta-project-a
+spec:
+  description: Meta Project A Kustomize
+  sourceNamespaces:
+  - 'meta-app-a'
+  destinations:
+  - namespace: meta-app-a

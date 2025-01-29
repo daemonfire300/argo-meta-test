@@ -1,0 +1,16 @@
+resources:
+  - ../../meta-base
+
+patches:
+- path: app.yaml
+  target:
+    kind: Application
+- path: project.yaml
+  target:
+    kind: AppProject
+- target:
+    kind: Namespace
+  patch: |
+    - op: replace
+      path: /metadata/name
+      value: my-meta-app-a

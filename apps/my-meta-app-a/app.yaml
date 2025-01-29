@@ -1,0 +1,8 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: meta-app-a
+  namespace: argocd
+spec:
+  source:
+    path: materialized-apps/my-meta-app-a-apps
