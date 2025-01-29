@@ -5,4 +5,4 @@ metadata:
 spec:
   project: meta-project-a
   source:
-    path: materialized-apps/my-meta-app-a-apps
+    path: 'materialized-apps/my-meta-app-a-apps'

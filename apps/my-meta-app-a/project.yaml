@@ -7,4 +7,4 @@ spec:
   sourceNamespaces:
   - 'meta-app-a'
   destinations:
-  - namespace: meta-app-a
+  - namespace: 'meta-app-a'
