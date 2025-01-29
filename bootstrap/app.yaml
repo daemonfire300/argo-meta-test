@@ -14,3 +14,5 @@ spec:
     path: apps
     repoURL: 'https://github.com/daemonfire300/argo-meta-test'
     targetRevision: HEAD
+    directory:
+      recurse: true
