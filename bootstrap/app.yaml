@@ -11,8 +11,6 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: meta-project
   source:
-    path: apps
+    path: apps/my-meta-app-a
     repoURL: 'https://github.com/daemonfire300/argo-meta-test'
     targetRevision: HEAD
-    directory:
-      recurse: true
