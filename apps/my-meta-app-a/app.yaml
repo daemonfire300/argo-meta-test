@@ -3,6 +3,5 @@ kind: Application
 metadata:
   name: meta-app-a
 spec:
-  project: meta-project-a
   source:
     path: 'materialized-apps/my-meta-app-a-apps'
