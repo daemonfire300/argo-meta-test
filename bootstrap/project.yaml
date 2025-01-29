@@ -12,3 +12,7 @@ spec:
   - 'argocd'
   sourceRepos:
   - 'https://github.com/daemonfire300/argo-meta-test'
+  destinations:
+    - namespace: argocd
+      server: 'https://kubernetes.default.svc'
+
