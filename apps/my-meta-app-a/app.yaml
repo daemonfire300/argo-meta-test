@@ -3,5 +3,9 @@ kind: Application
 metadata:
   name: meta-app-a
 spec:
+  destination:
+    namespace: my-meta-app-a
+    server: 'https://kubernetes.default.svc'
+  project: meta-project-a
   source:
     path: 'materialized-apps/my-meta-app-a-apps'
