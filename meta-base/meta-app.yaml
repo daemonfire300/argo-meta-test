@@ -16,3 +16,6 @@ spec:
     targetRevision: HEAD
     directory:
       recurse: true
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
